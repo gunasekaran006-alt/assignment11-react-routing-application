@@ -28,12 +28,12 @@ src/
 
 1. **Install Dependencies:**
    ```bash
-   npm install react-router@latest
+   npm create vite@latest [projectname]
    ```
 
 2. **Run the App:**
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## 📖 Available Routes
