@@ -14,7 +14,7 @@ const About = () => {
         style={{ borderRadius: '8px', marginBottom: '20px', width: '100%', maxHeight: '350px', objectFit: 'cover' }}
       />
 
-      {/* 3. About content (3-4 paragraphs) */}
+      {/* 3. About content */}
       <div style={{ textAlign: 'justify', lineHeight: '1.6', fontSize: '16px' }}>
         <p>
           Welcome to our React Routing Application! This website is built as part of Assignment 11 to demonstrate the powerful capabilities of React Router DOM in creating seamless single-page applications.
