@@ -15,9 +15,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/users" element={<User />} />
-          {/* Dynamic Route */}
-          <Route path="/users/:id" element={<UserDetail />} />
+          
+          {/* 👇 Nested Routes (Parent-Child Hierarchy) 👇 */}
+          <Route path="/users">
+            <Route index element={<User />} /> {/* Parent Route - /users */}
+            <Route path=":id" element={<UserDetail />} /> {/* Child Route - /users/:id */}
+          </Route>
+          
           {/* 404 Route */}
           <Route path="*" element={<NotFound />} />
         </Routes>
